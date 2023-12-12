@@ -1,0 +1,567 @@
+0000.002 (0) Opened log file at time: Tue, 12 Dec 2023 05:16:58 +0000 on http://localhost/p4
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.8 WP: 6.3 PHP: 8.2.4 (apache2handler, Windows NT SAI 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 94.3M | 96M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 166910.7 MB
+0000.037 (0) Deleting old log file: log.24fe55a3f041.txt
+0000.040 (0) Deleting old log file: log.61c03ac2ace2.txt
+0000.040 (0) Deleting old log file: log.d94112c1aacf.txt
+0000.042 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.044 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.067 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1692795715, seconds_ago=9562503)
+0000.072 (0) Set semaphore last lock (fd) time to 2023-12-12 05:16:58
+0000.074 (0) Semaphore lock (fd) complete
+0000.080 (0) Backup run: resumption=0, nonce=9d579177e439, file_nonce=9d579177e439 begun at=1702358218 (0s ago), job type=backup
+0000.083 (0) Scheduling a resumption (1) after 300 seconds (1702358518) in case this run gets aborted
+0000.112 (0) Checking if we have a zip executable available
+0000.117 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.118 (0) Creation of backups of directories: beginning
+0000.122 (0) No backup of plugins: excluded by user's options
+0000.124 (0) No backup of themes: excluded by user's options
+0000.126 (0) No backup of uploads: excluded by user's options
+0000.128 (0) No backup of others: excluded by user's options
+0000.134 (0) Saving backup status to database (elements: 0)
+0000.139 (0) Beginning creation of database dump (WordPress DB)
+0000.141 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.246 (0) Table wp_options: Total expected rows (via COUNT): 684
+0000.460 (0) Table wp_options: Rows added in this batch (next record: 3210): 680 (uncompressed bytes in this segment=2764571) in 0.25 seconds
+0000.474 (0) Table wp_options: finishing file(s) (2, 395.3 KB)
+0000.510 (0) Table wp_users: Total expected rows (via COUNT): 3
+0000.513 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.536 (0) Table wp_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1564) in 0.05 seconds
+0000.545 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0000.585 (0) Table wp_usermeta: Total expected rows (via COUNT): 114
+0000.587 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.593 (0) Table wp_usermeta: Rows added in this batch (next record: 124): 114 (uncompressed bytes in this segment=9056) in 0.03 seconds
+0000.605 (0) Table wp_usermeta: finishing file(s) (2, 2.9 KB)
+0000.636 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 784
+0000.669 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 942): 784 (uncompressed bytes in this segment=351364) in 0.06 seconds
+0000.683 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 20.7 KB)
+0000.710 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.712 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.02 seconds
+0000.723 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.748 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 8
+0000.750 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.755 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=824) in 0.02 seconds
+0000.763 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0000.790 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 2344
+0000.833 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 2406): 2344 (uncompressed bytes in this segment=204931) in 0.06 seconds
+0000.844 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 19.2 KB)
+0000.877 (0) Table wp_commentmeta: Total expected rows (via COUNT): 2
+0000.879 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.883 (0) Table wp_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=739) in 0.03 seconds
+0000.894 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.932 (0) Table wp_comments: Total expected rows (via COUNT): 7
+0000.934 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.938 (0) Table wp_comments: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=3376) in 0.03 seconds
+0000.947 (0) Table wp_comments: finishing file(s) (2, 1.1 KB)
+0000.980 (0) Table wp_links: Total expected rows (via COUNT): 0
+0000.986 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.03 seconds
+0000.997 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0001.100 (0) Table wp_postmeta: Total expected rows (approximate): 3564
+0001.369 (0) Table wp_postmeta: Rows added in this batch (next record: 3508): 3125 (uncompressed bytes in this segment=5958900) in 0.36 seconds
+0001.382 (0) Table wp_postmeta: finishing file(s) (2, 470 KB)
+0001.438 (0) Table wp_posts: Total expected rows (via COUNT): 389
+0001.440 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.528 (0) Table wp_posts: Rows added in this batch (next record: 422): 389 (uncompressed bytes in this segment=2381065) in 0.14 seconds
+0001.540 (0) Table wp_posts: finishing file(s) (2, 66.9 KB)
+0001.573 (0) Table wp_term_relationships: Total expected rows (approximate): 111
+0001.580 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 111 (uncompressed bytes in this segment=2321) in 0.02 seconds
+0001.589 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0001.620 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 29
+0001.623 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.629 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=1894) in 0.03 seconds
+0001.644 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0001.677 (0) Table wp_termmeta: Total expected rows (via COUNT): 19
+0001.679 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.684 (0) Table wp_termmeta: Rows added in this batch (next record: 19): 19 (uncompressed bytes in this segment=1329) in 0.02 seconds
+0001.695 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0001.721 (0) Table wp_terms: Total expected rows (via COUNT): 29
+0001.723 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.728 (0) Table wp_terms: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=1558) in 0.03 seconds
+0001.738 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0001.769 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 2
+0001.774 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=600) in 0.02 seconds
+0001.784 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0001.817 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 65
+0001.819 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.824 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 418): 65 (uncompressed bytes in this segment=7424) in 0.02 seconds
+0001.833 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.9 KB)
+0001.862 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0001.867 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.02 seconds
+0001.877 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0001.909 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0001.912 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.918 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=750) in 0.03 seconds
+0001.928 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0001.971 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 111
+0001.973 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.979 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 111): 111 (uncompressed bytes in this segment=4812) in 0.03 seconds
+0001.992 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 1.3 KB)
+0002.025 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0002.029 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.02 seconds
+0002.040 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0002.071 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0002.077 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.02 seconds
+0002.085 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0002.118 (0) Table wp_gla_attribute_mapping_rules: Total expected rows (via COUNT): 0
+0002.121 (0) Table wp_gla_attribute_mapping_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=660) in 0.02 seconds
+0002.131 (0) Table wp_gla_attribute_mapping_rules: finishing file(s) (2, 0.4 KB)
+0002.173 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0002.244 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=131395) in 0.09 seconds
+0002.255 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 33 KB)
+0002.285 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 0
+0002.288 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=882) in 0.02 seconds
+0002.297 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 0.4 KB)
+0002.329 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 0
+0002.332 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.02 seconds
+0002.341 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0002.373 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 0
+0002.375 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=555) in 0.02 seconds
+0002.385 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.3 KB)
+0002.419 (0) Table wp_mailpoet_automation_run_logs: Total expected rows (via COUNT): 0
+0002.421 (0) Table wp_mailpoet_automation_run_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=946) in 0.02 seconds
+0002.437 (0) Table wp_mailpoet_automation_run_logs: finishing file(s) (2, 0.4 KB)
+0002.473 (0) Table wp_mailpoet_automation_run_subjects: Total expected rows (via COUNT): 0
+0002.477 (0) Table wp_mailpoet_automation_run_subjects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=767) in 0.03 seconds
+0002.489 (0) Table wp_mailpoet_automation_run_subjects: finishing file(s) (2, 0.4 KB)
+0002.527 (0) Table wp_mailpoet_automation_runs: Total expected rows (via COUNT): 0
+0002.530 (0) Table wp_mailpoet_automation_runs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1022) in 0.03 seconds
+0002.539 (0) Table wp_mailpoet_automation_runs: finishing file(s) (2, 0.5 KB)
+0002.573 (0) Table wp_mailpoet_automation_triggers: Total expected rows (approximate): 0
+0002.577 (0) Table wp_mailpoet_automation_triggers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=579) in 0.03 seconds
+0002.587 (0) Table wp_mailpoet_automation_triggers: finishing file(s) (2, 0.3 KB)
+0002.624 (0) Table wp_mailpoet_automation_versions: Total expected rows (via COUNT): 0
+0002.627 (0) Table wp_mailpoet_automation_versions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.02 seconds
+0002.640 (0) Table wp_mailpoet_automation_versions: finishing file(s) (2, 0.4 KB)
+0002.672 (0) Table wp_mailpoet_automations: Total expected rows (via COUNT): 0
+0002.675 (0) Table wp_mailpoet_automations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=828) in 0.02 seconds
+0002.687 (0) Table wp_mailpoet_automations: finishing file(s) (2, 0.4 KB)
+0002.716 (0) Table wp_mailpoet_custom_fields: Total expected rows (via COUNT): 0
+0002.718 (0) Table wp_mailpoet_custom_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.02 seconds
+0002.729 (0) Table wp_mailpoet_custom_fields: finishing file(s) (2, 0.4 KB)
+0002.760 (0) Table wp_mailpoet_dynamic_segment_filters: Total expected rows (via COUNT): 0
+0002.763 (0) Table wp_mailpoet_dynamic_segment_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=877) in 0.02 seconds
+0002.772 (0) Table wp_mailpoet_dynamic_segment_filters: finishing file(s) (2, 0.4 KB)
+0002.803 (0) Table wp_mailpoet_feature_flags: Total expected rows (via COUNT): 0
+0002.806 (0) Table wp_mailpoet_feature_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=717) in 0.02 seconds
+0002.816 (0) Table wp_mailpoet_feature_flags: finishing file(s) (2, 0.4 KB)
+0002.853 (0) Table wp_mailpoet_forms: Total expected rows (via COUNT): 0
+0002.856 (0) Table wp_mailpoet_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=800) in 0.03 seconds
+0002.868 (0) Table wp_mailpoet_forms: finishing file(s) (2, 0.4 KB)
+0002.905 (0) Table wp_mailpoet_log: Total expected rows (via COUNT): 0
+0002.907 (0) Table wp_mailpoet_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.02 seconds
+0002.920 (0) Table wp_mailpoet_log: finishing file(s) (2, 0.4 KB)
+0002.951 (0) Table wp_mailpoet_migrations: Total expected rows (via COUNT): 16
+0002.953 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.958 (0) Table wp_mailpoet_migrations: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=2258) in 0.03 seconds
+0002.970 (0) Table wp_mailpoet_migrations: finishing file(s) (2, 0.7 KB)
+0003.012 (0) Table wp_mailpoet_newsletter_links: Total expected rows (via COUNT): 0
+0003.018 (0) Table wp_mailpoet_newsletter_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=884) in 0.03 seconds
+0003.029 (0) Table wp_mailpoet_newsletter_links: finishing file(s) (2, 0.4 KB)
+0003.064 (0) Table wp_mailpoet_newsletter_option: Total expected rows (via COUNT): 0
+0003.066 (0) Table wp_mailpoet_newsletter_option: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=851) in 0.03 seconds
+0003.078 (0) Table wp_mailpoet_newsletter_option: finishing file(s) (2, 0.4 KB)
+0003.109 (0) Table wp_mailpoet_newsletter_option_fields: Total expected rows (via COUNT): 28
+0003.111 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.116 (0) Table wp_mailpoet_newsletter_option_fields: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=2674) in 0.03 seconds
+0003.127 (0) Table wp_mailpoet_newsletter_option_fields: finishing file(s) (2, 0.7 KB)
+0003.157 (0) Table wp_mailpoet_newsletter_posts: Total expected rows (via COUNT): 0
+0003.162 (0) Table wp_mailpoet_newsletter_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=763) in 0.02 seconds
+0003.171 (0) Table wp_mailpoet_newsletter_posts: finishing file(s) (2, 0.4 KB)
+0003.205 (0) Table wp_mailpoet_newsletter_segment: Total expected rows (via COUNT): 0
+0003.208 (0) Table wp_mailpoet_newsletter_segment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=803) in 0.02 seconds
+0003.217 (0) Table wp_mailpoet_newsletter_segment: finishing file(s) (2, 0.4 KB)
+0003.255 (0) Table wp_mailpoet_newsletter_templates: Total expected rows (via COUNT): 76
+0003.257 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.294 (0) Table wp_mailpoet_newsletter_templates: Rows added in this batch (next record: 76): 76 (uncompressed bytes in this segment=1109790) in 0.06 seconds
+0003.306 (0) Table wp_mailpoet_newsletter_templates: finishing file(s) (2, 66.3 KB)
+0003.336 (0) Table wp_mailpoet_newsletters: Total expected rows (via COUNT): 0
+0003.341 (0) Table wp_mailpoet_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1400) in 0.02 seconds
+0003.351 (0) Table wp_mailpoet_newsletters: finishing file(s) (2, 0.5 KB)
+0003.383 (0) Table wp_mailpoet_scheduled_task_subscribers: Total expected rows (approximate): 0
+0003.386 (0) Table wp_mailpoet_scheduled_task_subscribers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=898) in 0.02 seconds
+0003.395 (0) Table wp_mailpoet_scheduled_task_subscribers: finishing file(s) (2, 0.4 KB)
+0003.426 (0) Table wp_mailpoet_scheduled_tasks: Total expected rows (via COUNT): 30
+0003.427 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.433 (0) Table wp_mailpoet_scheduled_tasks: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=6050) in 0.02 seconds
+0003.444 (0) Table wp_mailpoet_scheduled_tasks: finishing file(s) (2, 1.2 KB)
+0003.475 (0) Table wp_mailpoet_segments: Total expected rows (via COUNT): 3
+0003.477 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.482 (0) Table wp_mailpoet_segments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1694) in 0.03 seconds
+0003.492 (0) Table wp_mailpoet_segments: finishing file(s) (2, 0.7 KB)
+0003.527 (0) Table wp_mailpoet_sending_queues: Total expected rows (via COUNT): 0
+0003.531 (0) Table wp_mailpoet_sending_queues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1178) in 0.03 seconds
+0003.542 (0) Table wp_mailpoet_sending_queues: finishing file(s) (2, 0.5 KB)
+0003.576 (0) Table wp_mailpoet_settings: Total expected rows (via COUNT): 17
+0003.587 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.596 (0) Table wp_mailpoet_settings: Rows added in this batch (next record: 29): 17 (uncompressed bytes in this segment=3370) in 0.04 seconds
+0003.605 (0) Table wp_mailpoet_settings: finishing file(s) (2, 1.3 KB)
+0003.633 (0) Table wp_mailpoet_statistics_bounces: Total expected rows (via COUNT): 0
+0003.637 (0) Table wp_mailpoet_statistics_bounces: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=706) in 0.02 seconds
+0003.645 (0) Table wp_mailpoet_statistics_bounces: finishing file(s) (2, 0.4 KB)
+0003.670 (0) Table wp_mailpoet_statistics_clicks: Total expected rows (via COUNT): 0
+0003.673 (0) Table wp_mailpoet_statistics_clicks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1127) in 0.02 seconds
+0003.681 (0) Table wp_mailpoet_statistics_clicks: finishing file(s) (2, 0.5 KB)
+0003.708 (0) Table wp_mailpoet_statistics_forms: Total expected rows (via COUNT): 0
+0003.710 (0) Table wp_mailpoet_statistics_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 0.02 seconds
+0003.719 (0) Table wp_mailpoet_statistics_forms: finishing file(s) (2, 0.4 KB)
+0003.754 (0) Table wp_mailpoet_statistics_newsletters: Total expected rows (via COUNT): 0
+0003.757 (0) Table wp_mailpoet_statistics_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.02 seconds
+0003.768 (0) Table wp_mailpoet_statistics_newsletters: finishing file(s) (2, 0.4 KB)
+0003.801 (0) Table wp_mailpoet_statistics_opens: Total expected rows (via COUNT): 0
+0003.805 (0) Table wp_mailpoet_statistics_opens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.02 seconds
+0003.815 (0) Table wp_mailpoet_statistics_opens: finishing file(s) (2, 0.4 KB)
+0003.853 (0) Table wp_mailpoet_statistics_unsubscribes: Total expected rows (via COUNT): 0
+0003.857 (0) Table wp_mailpoet_statistics_unsubscribes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1017) in 0.03 seconds
+0003.865 (0) Table wp_mailpoet_statistics_unsubscribes: finishing file(s) (2, 0.5 KB)
+0003.900 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Total expected rows (via COUNT): 0
+0003.904 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1245) in 0.02 seconds
+0003.915 (0) Table wp_mailpoet_statistics_woocommerce_purchases: finishing file(s) (2, 0.5 KB)
+0003.948 (0) Table wp_mailpoet_stats_notifications: Total expected rows (via COUNT): 0
+0003.953 (0) Table wp_mailpoet_stats_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.03 seconds
+0003.963 (0) Table wp_mailpoet_stats_notifications: finishing file(s) (2, 0.4 KB)
+0003.999 (0) Table wp_mailpoet_subscriber_custom_field: Total expected rows (via COUNT): 0
+0004.002 (0) Table wp_mailpoet_subscriber_custom_field: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=879) in 0.03 seconds
+0004.012 (0) Table wp_mailpoet_subscriber_custom_field: finishing file(s) (2, 0.4 KB)
+0004.046 (0) Table wp_mailpoet_subscriber_ips: Total expected rows (approximate): 0
+0004.049 (0) Table wp_mailpoet_subscriber_ips: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=564) in 0.02 seconds
+0004.059 (0) Table wp_mailpoet_subscriber_ips: finishing file(s) (2, 0.3 KB)
+0004.092 (0) Table wp_mailpoet_subscriber_segment: Total expected rows (via COUNT): 5
+0004.095 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.101 (0) Table wp_mailpoet_subscriber_segment: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1321) in 0.03 seconds
+0004.111 (0) Table wp_mailpoet_subscriber_segment: finishing file(s) (2, 0.5 KB)
+0004.143 (0) Table wp_mailpoet_subscriber_tag: Total expected rows (via COUNT): 0
+0004.148 (0) Table wp_mailpoet_subscriber_tag: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=794) in 0.02 seconds
+0004.158 (0) Table wp_mailpoet_subscriber_tag: finishing file(s) (2, 0.4 KB)
+0004.196 (0) Table wp_mailpoet_subscribers: Total expected rows (via COUNT): 3
+0004.198 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.204 (0) Table wp_mailpoet_subscribers: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=3657) in 0.03 seconds
+0004.214 (0) Table wp_mailpoet_subscribers: finishing file(s) (2, 1.1 KB)
+0004.245 (0) Table wp_mailpoet_tags: Total expected rows (via COUNT): 0
+0004.251 (0) Table wp_mailpoet_tags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=670) in 0.02 seconds
+0004.260 (0) Table wp_mailpoet_tags: finishing file(s) (2, 0.4 KB)
+0004.299 (0) Table wp_mailpoet_user_agents: Total expected rows (via COUNT): 0
+0004.303 (0) Table wp_mailpoet_user_agents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.03 seconds
+0004.312 (0) Table wp_mailpoet_user_agents: finishing file(s) (2, 0.4 KB)
+0004.344 (0) Table wp_mailpoet_user_flags: Total expected rows (via COUNT): 0
+0004.348 (0) Table wp_mailpoet_user_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.02 seconds
+0004.359 (0) Table wp_mailpoet_user_flags: finishing file(s) (2, 0.4 KB)
+0004.401 (0) Table wp_tinvwl_analytics: Total expected rows (approximate): 1
+0004.406 (0) Table wp_tinvwl_analytics: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=1060) in 0.04 seconds
+0004.415 (0) Table wp_tinvwl_analytics: finishing file(s) (2, 0.5 KB)
+0004.463 (0) Table wp_tinvwl_items: Total expected rows (via COUNT): 0
+0004.466 (0) Table wp_tinvwl_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=830) in 0.04 seconds
+0004.478 (0) Table wp_tinvwl_items: finishing file(s) (2, 0.4 KB)
+0004.510 (0) Table wp_tinvwl_lists: Total expected rows (via COUNT): 3
+0004.512 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.518 (0) Table wp_tinvwl_lists: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=920) in 0.03 seconds
+0004.527 (0) Table wp_tinvwl_lists: finishing file(s) (2, 0.5 KB)
+0004.563 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 107
+0004.565 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.574 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1850): 107 (uncompressed bytes in this segment=20645) in 0.03 seconds
+0004.585 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3.3 KB)
+0004.619 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 78
+0004.622 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.632 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 78): 78 (uncompressed bytes in this segment=36780) in 0.04 seconds
+0004.645 (0) Table wp_wc_admin_notes: finishing file(s) (2, 7.3 KB)
+0004.679 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 3
+0004.681 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.686 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1485) in 0.03 seconds
+0004.693 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0004.726 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0004.731 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.02 seconds
+0004.740 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0004.786 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 0
+0004.790 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1053) in 0.04 seconds
+0004.800 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.4 KB)
+0004.845 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0004.849 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.04 seconds
+0004.861 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0004.902 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 0
+0004.905 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1399) in 0.02 seconds
+0004.916 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0004.952 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 8
+0004.955 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.961 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 11): 8 (uncompressed bytes in this segment=1927) in 0.03 seconds
+0004.972 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.6 KB)
+0005.000 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 4
+0005.003 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.006 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 419): 4 (uncompressed bytes in this segment=1704) in 0.02 seconds
+0005.015 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0005.047 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0005.053 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.02 seconds
+0005.063 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0005.101 (0) Table wp_wc_orders: Total expected rows (via COUNT): 0
+0005.105 (0) Table wp_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1383) in 0.03 seconds
+0005.116 (0) Table wp_wc_orders: finishing file(s) (2, 0.5 KB)
+0005.151 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 0
+0005.156 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.03 seconds
+0005.165 (0) Table wp_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0005.197 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 268
+0005.205 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 1000): 268 (uncompressed bytes in this segment=10166) in 0.03 seconds
+0005.213 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 1.2 KB)
+0005.252 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0005.254 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.260 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=909) in 0.03 seconds
+0005.270 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0005.303 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0005.308 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.02 seconds
+0005.320 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0005.348 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 1
+0005.351 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.356 (0) Table wp_wc_webhooks: Rows added in this batch (next record: 3): 1 (uncompressed bytes in this segment=1427) in 0.03 seconds
+0005.367 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.7 KB)
+0005.403 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0005.408 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=873) in 0.03 seconds
+0005.419 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0005.452 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 2
+0005.455 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.459 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1008) in 0.03 seconds
+0005.469 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0005.504 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0005.509 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1410) in 0.02 seconds
+0005.518 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0005.554 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0005.556 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.03 seconds
+0005.567 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0005.601 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 12
+0005.604 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.609 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1198) in 0.03 seconds
+0005.619 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.5 KB)
+0005.660 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0005.666 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.03 seconds
+0005.677 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0005.708 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 0
+0005.711 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.03 seconds
+0005.724 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.4 KB)
+0005.755 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0005.757 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.761 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=915) in 0.03 seconds
+0005.771 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0005.795 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0005.796 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.800 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=849) in 0.02 seconds
+0005.811 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0005.844 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0005.846 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.850 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=688) in 0.03 seconds
+0005.859 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0005.891 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0005.897 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.03 seconds
+0005.909 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0005.947 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0005.949 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1142) in 0.02 seconds
+0005.959 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0005.962 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\xampp\htdocs\p4/wp-content/updraft/backup_2023-12-12-0516_p2_9d579177e439-db.gz (line 1976, D:\xampp\htdocs\p4\wp-content\plugins\updraftplus\backup.php)
+0005.967 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_options.table.tmpr3211.gz (1/99/fopen): adding to final database dump
+0005.987 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_options.table.gz (2/99/fopen): adding to final database dump
+0005.990 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_users.table.tmpr4.gz (3/99/fopen): adding to final database dump
+0005.992 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_users.table.gz (4/99/fopen): adding to final database dump
+0005.994 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_usermeta.table.tmpr125.gz (5/99/fopen): adding to final database dump
+0005.997 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_usermeta.table.gz (6/99/fopen): adding to final database dump
+0006.000 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_actionscheduler_actions.table.tmpr943.gz (7/99/fopen): adding to final database dump
+0006.004 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_actionscheduler_actions.table.gz (8/99/fopen): adding to final database dump
+0006.006 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/99/fopen): adding to final database dump
+0006.009 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_actionscheduler_claims.table.gz (10/99/fopen): adding to final database dump
+0006.011 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_actionscheduler_groups.table.tmpr9.gz (11/99/fopen): adding to final database dump
+0006.013 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_actionscheduler_groups.table.gz (12/99/fopen): adding to final database dump
+0006.016 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_actionscheduler_logs.table.tmpr2407.gz (13/99/fopen): adding to final database dump
+0006.018 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_actionscheduler_logs.table.gz (14/99/fopen): adding to final database dump
+0006.020 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_commentmeta.table.tmpr3.gz (15/99/fopen): adding to final database dump
+0006.023 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_commentmeta.table.gz (16/99/fopen): adding to final database dump
+0006.025 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_comments.table.tmpr8.gz (17/99/fopen): adding to final database dump
+0006.027 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_comments.table.gz (18/99/fopen): adding to final database dump
+0006.029 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_links.table.tmpr0.gz (19/99/fopen): adding to final database dump
+0006.032 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_links.table.gz (20/99/fopen): adding to final database dump
+0006.034 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_postmeta.table.tmpr3509.gz (21/99/fopen): adding to final database dump
+0006.051 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_postmeta.table.gz (22/99/fopen): adding to final database dump
+0006.053 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_posts.table.tmpr423.gz (23/99/fopen): adding to final database dump
+0006.058 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_posts.table.gz (24/99/fopen): adding to final database dump
+0006.060 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_term_relationships.table.tmpr100001.gz (25/99/fopen): adding to final database dump
+0006.062 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_term_relationships.table.gz (26/99/fopen): adding to final database dump
+0006.064 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_term_taxonomy.table.tmpr30.gz (27/99/fopen): adding to final database dump
+0006.067 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_term_taxonomy.table.gz (28/99/fopen): adding to final database dump
+0006.069 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_termmeta.table.tmpr20.gz (29/99/fopen): adding to final database dump
+0006.071 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_termmeta.table.gz (30/99/fopen): adding to final database dump
+0006.073 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_terms.table.tmpr30.gz (31/99/fopen): adding to final database dump
+0006.075 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_terms.table.gz (32/99/fopen): adding to final database dump
+0006.078 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/99/fopen): adding to final database dump
+0006.080 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_category_lookup.table.gz (34/99/fopen): adding to final database dump
+0006.082 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_product_meta_lookup.table.tmpr419.gz (35/99/fopen): adding to final database dump
+0006.084 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_product_meta_lookup.table.gz (36/99/fopen): adding to final database dump
+0006.086 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/99/fopen): adding to final database dump
+0006.088 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_reserved_stock.table.gz (38/99/fopen): adding to final database dump
+0006.090 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/99/fopen): adding to final database dump
+0006.093 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_tax_rate_classes.table.gz (40/99/fopen): adding to final database dump
+0006.095 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_order_itemmeta.table.tmpr112.gz (41/99/fopen): adding to final database dump
+0006.097 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_order_itemmeta.table.gz (42/99/fopen): adding to final database dump
+0006.100 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/99/fopen): adding to final database dump
+0006.103 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/99/fopen): adding to final database dump
+0006.105 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_e_events.table.tmpr0.gz (45/99/fopen): adding to final database dump
+0006.107 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_e_events.table.gz (46/99/fopen): adding to final database dump
+0006.109 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_attribute_mapping_rules.table.tmpr0.gz (47/99/fopen): adding to final database dump
+0006.111 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_attribute_mapping_rules.table.gz (48/99/fopen): adding to final database dump
+0006.113 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (49/99/fopen): adding to final database dump
+0006.117 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_budget_recommendations.table.gz (50/99/fopen): adding to final database dump
+0006.120 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_merchant_issues.table.tmpr0.gz (51/99/fopen): adding to final database dump
+0006.122 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_merchant_issues.table.gz (52/99/fopen): adding to final database dump
+0006.124 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_shipping_rates.table.tmpr0.gz (53/99/fopen): adding to final database dump
+0006.126 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_shipping_rates.table.gz (54/99/fopen): adding to final database dump
+0006.127 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_shipping_times.table.tmpr0.gz (55/99/fopen): adding to final database dump
+0006.129 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_gla_shipping_times.table.gz (56/99/fopen): adding to final database dump
+0006.131 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_run_logs.table.tmpr0.gz (57/99/fopen): adding to final database dump
+0006.134 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_run_logs.table.gz (58/99/fopen): adding to final database dump
+0006.135 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_run_subjects.table.tmpr0.gz (59/99/fopen): adding to final database dump
+0006.137 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_run_subjects.table.gz (60/99/fopen): adding to final database dump
+0006.139 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_runs.table.tmpr0.gz (61/99/fopen): adding to final database dump
+0006.142 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_runs.table.gz (62/99/fopen): adding to final database dump
+0006.148 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_triggers.table.tmpr1.gz (63/99/fopen): adding to final database dump
+0006.151 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_triggers.table.gz (64/99/fopen): adding to final database dump
+0006.153 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_versions.table.tmpr0.gz (65/99/fopen): adding to final database dump
+0006.155 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automation_versions.table.gz (66/99/fopen): adding to final database dump
+0006.158 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automations.table.tmpr0.gz (67/99/fopen): adding to final database dump
+0006.160 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_automations.table.gz (68/99/fopen): adding to final database dump
+0006.163 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_custom_fields.table.tmpr0.gz (69/99/fopen): adding to final database dump
+0006.165 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_custom_fields.table.gz (70/99/fopen): adding to final database dump
+0006.168 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_dynamic_segment_filters.table.tmpr0.gz (71/99/fopen): adding to final database dump
+0006.170 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_dynamic_segment_filters.table.gz (72/99/fopen): adding to final database dump
+0006.172 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_feature_flags.table.tmpr0.gz (73/99/fopen): adding to final database dump
+0006.175 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_feature_flags.table.gz (74/99/fopen): adding to final database dump
+0006.177 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_forms.table.tmpr0.gz (75/99/fopen): adding to final database dump
+0006.179 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_forms.table.gz (76/99/fopen): adding to final database dump
+0006.182 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_log.table.tmpr0.gz (77/99/fopen): adding to final database dump
+0006.185 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_log.table.gz (78/99/fopen): adding to final database dump
+0006.187 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_migrations.table.tmpr17.gz (79/99/fopen): adding to final database dump
+0006.190 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_migrations.table.gz (80/99/fopen): adding to final database dump
+0006.192 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_links.table.tmpr0.gz (81/99/fopen): adding to final database dump
+0006.195 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_links.table.gz (82/99/fopen): adding to final database dump
+0006.197 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_option.table.tmpr0.gz (83/99/fopen): adding to final database dump
+0006.200 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_option.table.gz (84/99/fopen): adding to final database dump
+0006.202 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_option_fields.table.tmpr29.gz (85/99/fopen): adding to final database dump
+0006.205 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_option_fields.table.gz (86/99/fopen): adding to final database dump
+0006.207 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_posts.table.tmpr0.gz (87/99/fopen): adding to final database dump
+0006.210 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_posts.table.gz (88/99/fopen): adding to final database dump
+0006.212 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_segment.table.tmpr0.gz (89/99/fopen): adding to final database dump
+0006.215 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_segment.table.gz (90/99/fopen): adding to final database dump
+0006.217 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_templates.table.tmpr77.gz (91/99/fopen): adding to final database dump
+0006.224 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletter_templates.table.gz (92/99/fopen): adding to final database dump
+0006.227 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletters.table.tmpr0.gz (93/99/fopen): adding to final database dump
+0006.229 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_newsletters.table.gz (94/99/fopen): adding to final database dump
+0006.230 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_scheduled_task_subscribers.table.tmpr1.gz (95/99/fopen): adding to final database dump
+0006.233 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_scheduled_task_subscribers.table.gz (96/99/fopen): adding to final database dump
+0006.235 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_scheduled_tasks.table.tmpr31.gz (97/99/fopen): adding to final database dump
+0006.238 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_scheduled_tasks.table.gz (98/99/fopen): adding to final database dump
+0006.240 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_segments.table.tmpr4.gz (99/99/fopen): adding to final database dump
+0006.244 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_segments.table.gz (100/99/fopen): adding to final database dump
+0006.246 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_sending_queues.table.tmpr0.gz (101/99/fopen): adding to final database dump
+0006.249 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_sending_queues.table.gz (102/99/fopen): adding to final database dump
+0006.252 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_settings.table.tmpr30.gz (103/99/fopen): adding to final database dump
+0006.254 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_settings.table.gz (104/99/fopen): adding to final database dump
+0006.256 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_bounces.table.tmpr0.gz (105/99/fopen): adding to final database dump
+0006.259 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_bounces.table.gz (106/99/fopen): adding to final database dump
+0006.261 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_clicks.table.tmpr0.gz (107/99/fopen): adding to final database dump
+0006.263 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_clicks.table.gz (108/99/fopen): adding to final database dump
+0006.265 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_forms.table.tmpr0.gz (109/99/fopen): adding to final database dump
+0006.267 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_forms.table.gz (110/99/fopen): adding to final database dump
+0006.269 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_newsletters.table.tmpr0.gz (111/99/fopen): adding to final database dump
+0006.272 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_newsletters.table.gz (112/99/fopen): adding to final database dump
+0006.274 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_opens.table.tmpr0.gz (113/99/fopen): adding to final database dump
+0006.276 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_opens.table.gz (114/99/fopen): adding to final database dump
+0006.278 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_unsubscribes.table.tmpr0.gz (115/99/fopen): adding to final database dump
+0006.280 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_unsubscribes.table.gz (116/99/fopen): adding to final database dump
+0006.282 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.tmpr0.gz (117/99/fopen): adding to final database dump
+0006.284 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.gz (118/99/fopen): adding to final database dump
+0006.286 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_stats_notifications.table.tmpr0.gz (119/99/fopen): adding to final database dump
+0006.288 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_stats_notifications.table.gz (120/99/fopen): adding to final database dump
+0006.290 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscriber_custom_field.table.tmpr0.gz (121/99/fopen): adding to final database dump
+0006.292 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscriber_custom_field.table.gz (122/99/fopen): adding to final database dump
+0006.294 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscriber_ips.table.tmpr1.gz (123/99/fopen): adding to final database dump
+0006.296 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscriber_ips.table.gz (124/99/fopen): adding to final database dump
+0006.298 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscriber_segment.table.tmpr6.gz (125/99/fopen): adding to final database dump
+0006.301 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscriber_segment.table.gz (126/99/fopen): adding to final database dump
+0006.303 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscriber_tag.table.tmpr0.gz (127/99/fopen): adding to final database dump
+0006.305 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscriber_tag.table.gz (128/99/fopen): adding to final database dump
+0006.307 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscribers.table.tmpr5.gz (129/99/fopen): adding to final database dump
+0006.308 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_subscribers.table.gz (130/99/fopen): adding to final database dump
+0006.310 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_tags.table.tmpr0.gz (131/99/fopen): adding to final database dump
+0006.312 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_tags.table.gz (132/99/fopen): adding to final database dump
+0006.314 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_user_agents.table.tmpr0.gz (133/99/fopen): adding to final database dump
+0006.317 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_user_agents.table.gz (134/99/fopen): adding to final database dump
+0006.319 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_user_flags.table.tmpr0.gz (135/99/fopen): adding to final database dump
+0006.321 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_mailpoet_user_flags.table.gz (136/99/fopen): adding to final database dump
+0006.323 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_tinvwl_analytics.table.tmpr1001.gz (137/99/fopen): adding to final database dump
+0006.325 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_tinvwl_analytics.table.gz (138/99/fopen): adding to final database dump
+0006.327 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_tinvwl_items.table.tmpr0.gz (139/99/fopen): adding to final database dump
+0006.329 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_tinvwl_items.table.gz (140/99/fopen): adding to final database dump
+0006.331 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_tinvwl_lists.table.tmpr4.gz (141/99/fopen): adding to final database dump
+0006.333 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_tinvwl_lists.table.gz (142/99/fopen): adding to final database dump
+0006.335 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_admin_note_actions.table.tmpr1851.gz (143/99/fopen): adding to final database dump
+0006.338 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_admin_note_actions.table.gz (144/99/fopen): adding to final database dump
+0006.340 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_admin_notes.table.tmpr79.gz (145/99/fopen): adding to final database dump
+0006.342 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_admin_notes.table.gz (146/99/fopen): adding to final database dump
+0006.344 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_customer_lookup.table.tmpr4.gz (147/99/fopen): adding to final database dump
+0006.346 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_customer_lookup.table.gz (148/99/fopen): adding to final database dump
+0006.348 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_download_log.table.tmpr0.gz (149/99/fopen): adding to final database dump
+0006.351 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_download_log.table.gz (150/99/fopen): adding to final database dump
+0006.353 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_addresses.table.tmpr0.gz (151/99/fopen): adding to final database dump
+0006.355 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_addresses.table.gz (152/99/fopen): adding to final database dump
+0006.357 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (153/99/fopen): adding to final database dump
+0006.360 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_coupon_lookup.table.gz (154/99/fopen): adding to final database dump
+0006.362 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_operational_data.table.tmpr0.gz (155/99/fopen): adding to final database dump
+0006.364 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_operational_data.table.gz (156/99/fopen): adding to final database dump
+0006.366 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_product_lookup.table.tmpr12.gz (157/99/fopen): adding to final database dump
+0006.369 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_product_lookup.table.gz (158/99/fopen): adding to final database dump
+0006.371 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_stats.table.tmpr420.gz (159/99/fopen): adding to final database dump
+0006.373 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_stats.table.gz (160/99/fopen): adding to final database dump
+0006.375 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (161/99/fopen): adding to final database dump
+0006.377 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_order_tax_lookup.table.gz (162/99/fopen): adding to final database dump
+0006.379 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_orders.table.tmpr0.gz (163/99/fopen): adding to final database dump
+0006.382 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_orders.table.gz (164/99/fopen): adding to final database dump
+0006.384 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_orders_meta.table.tmpr0.gz (165/99/fopen): adding to final database dump
+0006.387 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_orders_meta.table.gz (166/99/fopen): adding to final database dump
+0006.389 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_product_attributes_lookup.table.tmpr1001.gz (167/99/fopen): adding to final database dump
+0006.391 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_product_attributes_lookup.table.gz (168/99/fopen): adding to final database dump
+0006.393 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_product_download_directories.table.tmpr3.gz (169/99/fopen): adding to final database dump
+0006.395 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_product_download_directories.table.gz (170/99/fopen): adding to final database dump
+0006.397 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_rate_limits.table.tmpr0.gz (171/99/fopen): adding to final database dump
+0006.398 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_rate_limits.table.gz (172/99/fopen): adding to final database dump
+0006.400 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_webhooks.table.tmpr4.gz (173/99/fopen): adding to final database dump
+0006.401 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_wc_webhooks.table.gz (174/99/fopen): adding to final database dump
+0006.402 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (175/99/fopen): adding to final database dump
+0006.404 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_api_keys.table.gz (176/99/fopen): adding to final database dump
+0006.405 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr3.gz (177/99/fopen): adding to final database dump
+0006.406 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_attribute_taxonomies.table.gz (178/99/fopen): adding to final database dump
+0006.408 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (179/99/fopen): adding to final database dump
+0006.409 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (180/99/fopen): adding to final database dump
+0006.410 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_log.table.tmpr0.gz (181/99/fopen): adding to final database dump
+0006.412 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_log.table.gz (182/99/fopen): adding to final database dump
+0006.414 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_order_items.table.tmpr13.gz (183/99/fopen): adding to final database dump
+0006.416 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_order_items.table.gz (184/99/fopen): adding to final database dump
+0006.418 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (185/99/fopen): adding to final database dump
+0006.420 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_payment_tokens.table.gz (186/99/fopen): adding to final database dump
+0006.422 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_sessions.table.tmpr0.gz (187/99/fopen): adding to final database dump
+0006.424 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_sessions.table.gz (188/99/fopen): adding to final database dump
+0006.426 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr2.gz (189/99/fopen): adding to final database dump
+0006.429 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_shipping_zone_locations.table.gz (190/99/fopen): adding to final database dump
+0006.430 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr2.gz (191/99/fopen): adding to final database dump
+0006.433 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_shipping_zone_methods.table.gz (192/99/fopen): adding to final database dump
+0006.435 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (193/99/fopen): adding to final database dump
+0006.438 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_shipping_zones.table.gz (194/99/fopen): adding to final database dump
+0006.440 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (195/99/fopen): adding to final database dump
+0006.442 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_tax_rate_locations.table.gz (196/99/fopen): adding to final database dump
+0006.444 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (197/99/fopen): adding to final database dump
+0006.447 (0) backup_2023-12-12-0516_p2_9d579177e439-db-table-wp_woocommerce_tax_rates.table.gz (198/99/fopen): adding to final database dump
+0006.519 (0) backup_2023-12-12-0516_p2_9d579177e439-db.gz: finished writing out complete database file (1129.2 KB)
+0006.583 (0) Total database tables backed up: 99 (backup_2023-12-12-0516_p2_9d579177e439-db.gz, size: 1156381, sha1: 8f574248771073c6442e87d252f5d44de2ff1f05, sha256: 32ff1aa0b9a2b2e4d5fb0deea3a31aac83ac56958f009da66a7bad4f0de6c3ec)
+0006.597 (0) backup_2023-12-12-0516_p2_9d579177e439-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.599 (0) Saving backup history. Total backup size: 1.1 MB
+0006.605 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0006.610 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.612 (0) No remote despatch: user chose no remote backup service
+0006.614 (0) Recording as successfully uploaded: backup_2023-12-12-0516_p2_9d579177e439-db.gz
+0006.618 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0006.619 (0) Resume backup (9d579177e439, 0): finish run
+0006.624 (0) Decremented the semaphore (fd) by 1
+0006.627 (0) Semaphore (fd) unlocked
+0006.629 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.636 (0) No email will/can be sent - the user has not configured an email address.
+0006.638 (0) The backup succeeded and is now complete
